@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">resgressionSuit</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num attn">4</td><td class="num attn">1</td><td class="num">263,163</td><td>regressionTest</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">resgressionSuit</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.crm.reqing.SampleTest.Sample_OrganizationTest</td><td><a href="#m0">CreateOrganizationWithMandatory</a></td><td rowspan="1">1658209172924</td><td rowspan="1">103</td></tr><tr><th colspan="4">Test &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="4">com.crm.reqing.SampleTest.Sample_OrganizationTest</td><td><a href="#m1">CreateOrganizationWithMandatory</a></td><td rowspan="4">1658209162105</td><td rowspan="4">102</td></tr><tr class="retriedeven"><td><a href="#m2">CreateOrganizationWithMandatory</a></td></tr><tr class="retriedeven"><td><a href="#m3">CreateOrganizationWithMandatory</a></td></tr><tr class="retriedeven"><td><a href="#m4">CreateOrganizationWithMandatory</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.crm.reqing.SampleTest.Sample_CampaignTest</td><td><a href="#m5">CreateCampaignWithProductTest</a></td><td rowspan="1">1658209221262</td><td rowspan="1">19613</td></tr><tr class="passedeven"><td><a href="#m6">createCampaignWithMandatoryFieldTest</a></td><td rowspan="1">1658209248409</td><td rowspan="1">18147</td></tr><tr class="passedodd"><td rowspan="2">com.crm.reqing.SampleTest.Sample_ContactTest</td><td><a href="#m7">CreateContactWithMandatory</a></td><td rowspan="1">1658209069683</td><td rowspan="1">17403</td></tr><tr class="passedodd"><td><a href="#m8">CreateContactWithOrganizationTest</a></td><td rowspan="1">1658209095116</td><td rowspan="1">25285</td></tr><tr class="passedeven"><td rowspan="1">com.crm.reqing.SampleTest.Sample_OrganizationTest</td><td><a href="#m9">CreateOrganizationWithMemberOfTest</a></td><td rowspan="1">1658209183970</td><td rowspan="1">25471</td></tr><tr class="passedodd"><td rowspan="2">com.crm.reqing.SampleTest.Sample_ProductTest</td><td><a href="#m10">CreateProductWithMandatoryTest</a></td><td rowspan="1">1658209277790</td><td rowspan="1">15178</td></tr><tr class="passedodd"><td><a href="#m11">CreateProductWithVendorsTest</a></td><td rowspan="1">1658209300324</td><td rowspan="1">20266</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.crm.reqing.SampleTest.Sample_OrganizationTest#CreateOrganizationWithMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.getStringCellValue()&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; is null
+	at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+	at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.crm.reqing.SampleTest.Sample_OrganizationTest#CreateOrganizationWithMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.getStringCellValue()&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; is null
+	at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+	at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.crm.reqing.SampleTest.Sample_OrganizationTest#CreateOrganizationWithMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.getStringCellValue()&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; is null
+	at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+	at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.crm.reqing.SampleTest.Sample_OrganizationTest#CreateOrganizationWithMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.getStringCellValue()&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; is null
+	at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+	at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.crm.reqing.SampleTest.Sample_OrganizationTest#CreateOrganizationWithMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.ss.usermodel.Cell.getStringCellValue()&quot; because the return value of &quot;org.apache.poi.ss.usermodel.Row.getCell(int)&quot; is null
+	at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+	at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.crm.reqing.SampleTest.Sample_CampaignTest#CreateCampaignWithProductTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.crm.reqing.SampleTest.Sample_CampaignTest#createCampaignWithMandatoryFieldTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.crm.reqing.SampleTest.Sample_ContactTest#CreateContactWithMandatory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.crm.reqing.SampleTest.Sample_ContactTest#CreateContactWithOrganizationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.crm.reqing.SampleTest.Sample_OrganizationTest#CreateOrganizationWithMemberOfTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.crm.reqing.SampleTest.Sample_ProductTest#CreateProductWithMandatoryTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.crm.reqing.SampleTest.Sample_ProductTest#CreateProductWithVendorsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

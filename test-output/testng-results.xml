@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="4" ignored="6" total="18" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-19T11:07:40 IST" name="resgressionSuit" finished-at="2022-07-19T11:12:03 IST" duration-ms="263163">
+    <groups>
+      <group name="regressionTest">
+        <method signature="Sample_CampaignTest.CreateCampaignWithProductTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" name="CreateCampaignWithProductTest" class="com.crm.reqing.SampleTest.Sample_CampaignTest"/>
+        <method signature="Sample_CampaignTest.createCampaignWithMandatoryFieldTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" name="createCampaignWithMandatoryFieldTest" class="com.crm.reqing.SampleTest.Sample_CampaignTest"/>
+        <method signature="Sample_ContactTest.CreateContactWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" name="CreateContactWithMandatory" class="com.crm.reqing.SampleTest.Sample_ContactTest"/>
+        <method signature="Sample_ContactTest.CreateContactWithOrganizationTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" name="CreateContactWithOrganizationTest" class="com.crm.reqing.SampleTest.Sample_ContactTest"/>
+        <method signature="Sample_OrganizationTest.CreateOrganizationWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" name="CreateOrganizationWithMandatory" class="com.crm.reqing.SampleTest.Sample_OrganizationTest"/>
+        <method signature="Sample_OrganizationTest.CreateOrganizationWithMemberOfTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" name="CreateOrganizationWithMemberOfTest" class="com.crm.reqing.SampleTest.Sample_OrganizationTest"/>
+        <method signature="Sample_ProductTest.CreateProductWithMandatoryTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" name="CreateProductWithMandatoryTest" class="com.crm.reqing.SampleTest.Sample_ProductTest"/>
+        <method signature="Sample_ProductTest.CreateProductWithVendorsTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" name="CreateProductWithVendorsTest" class="com.crm.reqing.SampleTest.Sample_ProductTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="Sample_CampaignTest.createCampaignWithMandatoryFieldTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" name="createCampaignWithMandatoryFieldTest" class="com.crm.reqing.SampleTest.Sample_CampaignTest"/>
+        <method signature="Sample_ContactTest.CreateContactWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" name="CreateContactWithMandatory" class="com.crm.reqing.SampleTest.Sample_ContactTest"/>
+        <method signature="Sample_OrganizationTest.CreateOrganizationWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" name="CreateOrganizationWithMandatory" class="com.crm.reqing.SampleTest.Sample_OrganizationTest"/>
+        <method signature="Sample_ProductTest.CreateProductWithMandatoryTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" name="CreateProductWithMandatoryTest" class="com.crm.reqing.SampleTest.Sample_ProductTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2022-07-19T11:07:40 IST" name="Test" finished-at="2022-07-19T11:12:03 IST" duration-ms="263163">
+      <class name="com.crm.reqing.SampleTest.Sample_CampaignTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" started-at="2022-07-19T11:10:12 IST" name="configBC" finished-at="2022-07-19T11:10:14 IST" duration-ms="2124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" started-at="2022-07-19T11:10:14 IST" name="configBM" finished-at="2022-07-19T11:10:21 IST" duration-ms="6826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateCampaignWithProductTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" started-at="2022-07-19T11:10:21 IST" name="CreateCampaignWithProductTest" finished-at="2022-07-19T11:10:40 IST" duration-ms="19613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaignWithProductTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" started-at="2022-07-19T11:10:40 IST" name="configAM" finished-at="2022-07-19T11:10:43 IST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" started-at="2022-07-19T11:10:43 IST" name="configBM" finished-at="2022-07-19T11:10:48 IST" duration-ms="5331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createCampaignWithMandatoryFieldTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" started-at="2022-07-19T11:10:48 IST" name="createCampaignWithMandatoryFieldTest" finished-at="2022-07-19T11:11:06 IST" duration-ms="18147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithMandatoryFieldTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" started-at="2022-07-19T11:11:06 IST" name="configAM" finished-at="2022-07-19T11:11:09 IST" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.reqing.SampleTest.Sample_CampaignTest@3ee37e5a]" started-at="2022-07-19T11:11:09 IST" name="configAC" finished-at="2022-07-19T11:11:09 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.reqing.SampleTest.Sample_CampaignTest -->
+      <class name="com.crm.reqing.SampleTest.Sample_OrganizationTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:08:43 IST" name="configBC" finished-at="2022-07-19T11:08:45 IST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:08:45 IST" name="configBM" finished-at="2022-07-19T11:08:51 IST" duration-ms="6477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method retried="true" signature="CreateOrganizationWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:08:51 IST" name="CreateOrganizationWithMandatory" finished-at="2022-07-19T11:08:51 IST" duration-ms="132" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationWithMandatory -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:08:52 IST" name="configAM" finished-at="2022-07-19T11:08:57 IST" duration-ms="5286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:08:57 IST" name="configBM" finished-at="2022-07-19T11:09:02 IST" duration-ms="4661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method retried="true" signature="CreateOrganizationWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:02 IST" name="CreateOrganizationWithMandatory" finished-at="2022-07-19T11:09:02 IST" duration-ms="123" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationWithMandatory -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:02 IST" name="configAM" finished-at="2022-07-19T11:09:08 IST" duration-ms="5715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:08 IST" name="configBM" finished-at="2022-07-19T11:09:11 IST" duration-ms="3883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method retried="true" signature="CreateOrganizationWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:11 IST" name="CreateOrganizationWithMandatory" finished-at="2022-07-19T11:09:12 IST" duration-ms="196" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationWithMandatory -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:12 IST" name="configAM" finished-at="2022-07-19T11:09:17 IST" duration-ms="5385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:17 IST" name="configBM" finished-at="2022-07-19T11:09:22 IST" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method retried="true" signature="CreateOrganizationWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:22 IST" name="CreateOrganizationWithMandatory" finished-at="2022-07-19T11:09:22 IST" duration-ms="102" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationWithMandatory -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:22 IST" name="configAM" finished-at="2022-07-19T11:09:27 IST" duration-ms="5687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:27 IST" name="configBM" finished-at="2022-07-19T11:09:32 IST" duration-ms="5027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOrganizationWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:32 IST" name="CreateOrganizationWithMandatory" finished-at="2022-07-19T11:09:33 IST" duration-ms="103" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at com.crm.reqing.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+at com.crm.reqing.SampleTest.Sample_OrganizationTest.CreateOrganizationWithMandatory(Sample_OrganizationTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationWithMandatory -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:34 IST" name="configAM" finished-at="2022-07-19T11:09:38 IST" duration-ms="4656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:38 IST" name="configBM" finished-at="2022-07-19T11:09:43 IST" duration-ms="5205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOrganizationWithMemberOfTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:09:43 IST" name="CreateOrganizationWithMemberOfTest" finished-at="2022-07-19T11:10:09 IST" duration-ms="25471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationWithMemberOfTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:10:09 IST" name="configAM" finished-at="2022-07-19T11:10:11 IST" duration-ms="2496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.reqing.SampleTest.Sample_OrganizationTest@2805d709]" started-at="2022-07-19T11:10:11 IST" name="configAC" finished-at="2022-07-19T11:10:12 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.reqing.SampleTest.Sample_OrganizationTest -->
+      <class name="com.crm.reqing.SampleTest.Sample_ContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:07:40 IST" name="configBS" finished-at="2022-07-19T11:07:40 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:07:40 IST" name="configBC" finished-at="2022-07-19T11:07:43 IST" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:07:43 IST" name="configBM" finished-at="2022-07-19T11:07:49 IST" duration-ms="6093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateContactWithMandatory()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:07:49 IST" name="CreateContactWithMandatory" finished-at="2022-07-19T11:08:07 IST" duration-ms="17403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithMandatory -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:08:07 IST" name="configAM" finished-at="2022-07-19T11:08:09 IST" duration-ms="1925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:08:09 IST" name="configBM" finished-at="2022-07-19T11:08:15 IST" duration-ms="6094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateContactWithOrganizationTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:08:15 IST" name="CreateContactWithOrganizationTest" finished-at="2022-07-19T11:08:40 IST" duration-ms="25285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithOrganizationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:08:40 IST" name="configAM" finished-at="2022-07-19T11:08:42 IST" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:08:42 IST" name="configAC" finished-at="2022-07-19T11:08:43 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ContactTest@54bff557]" started-at="2022-07-19T11:12:03 IST" name="configAS" finished-at="2022-07-19T11:12:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.reqing.SampleTest.Sample_ContactTest -->
+      <class name="com.crm.reqing.SampleTest.Sample_ProductTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" started-at="2022-07-19T11:11:09 IST" name="configBC" finished-at="2022-07-19T11:11:11 IST" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" started-at="2022-07-19T11:11:11 IST" name="configBM" finished-at="2022-07-19T11:11:17 IST" duration-ms="6111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateProductWithMandatoryTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" started-at="2022-07-19T11:11:17 IST" name="CreateProductWithMandatoryTest" finished-at="2022-07-19T11:11:32 IST" duration-ms="15178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProductWithMandatoryTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" started-at="2022-07-19T11:11:32 IST" name="configAM" finished-at="2022-07-19T11:11:35 IST" duration-ms="2375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" started-at="2022-07-19T11:11:35 IST" name="configBM" finished-at="2022-07-19T11:11:40 IST" duration-ms="4971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateProductWithVendorsTest()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" started-at="2022-07-19T11:11:40 IST" name="CreateProductWithVendorsTest" finished-at="2022-07-19T11:12:00 IST" duration-ms="20266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProductWithVendorsTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" started-at="2022-07-19T11:12:00 IST" name="configAM" finished-at="2022-07-19T11:12:03 IST" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.reqing.SampleTest.Sample_ProductTest@3c7f66c4]" started-at="2022-07-19T11:12:03 IST" name="configAC" finished-at="2022-07-19T11:12:03 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.reqing.SampleTest.Sample_ProductTest -->
+    </test> <!-- Test -->
+  </suite> <!-- resgressionSuit -->
+</testng-results>
